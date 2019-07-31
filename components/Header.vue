@@ -2,7 +2,7 @@
     <nav class="bg-purple text-white">
         <div class="flex flex-wrap">
             <nuxt-link to="/" class="flex items-center">
-            <img class="w-40 px-4 py-4" src="~/assets/img/logo-colour-white.svg" alt="">
+            <img class="w-40 px-4 py-4" src="~/assets/img/logo-colour-white.svg" alt="Big Man Media Logo">
             </nuxt-link>
             <ul class="ml-auto mr-auto hidden  flex-col lg:flex lg:flex-row items-center">
                 <li v-for="(nav, n) in headerNavs" :key="n" class="p-8 leading-none">

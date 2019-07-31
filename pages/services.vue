@@ -31,7 +31,7 @@
                     <div class="flex flex-wrap">
                         <div class="w-full lg:w-1/3 mb-8">
                             <div class="px-8">
-                                <h2 class="font-mono text-xl uppercase tracking-widest font-bold text-purple pb-8 md:pb-16">{{ coreService.title }}</h2>
+                                <h2 class="font-mono text-xl uppercase tracking-widest font-bold text-green pb-8 md:pb-16">{{ coreService.title }}</h2>
                             </div>
                         </div>
                         <div class="w-full md:w-1/2 lg:w-1/3 text-white" v-for="(speciality, s) in coreService.specialities" :key="s">
