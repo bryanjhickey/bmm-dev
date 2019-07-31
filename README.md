@@ -2,6 +2,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/70063fc7-b5fe-4476-970f-f41fa273358d/deploy-status)](https://app.netlify.com/sites/jovial-murdock-da2153/deploys)
 
+[![Build Status](https://travis-ci.org/bryanjhickey/bmm-dev.svg?branch=master)](https://travis-ci.com/bryanjhickey/bmm-dev)
+
 > Company website built with Nuxt, Tailwind etc.
 > Install Instructions Below
 > Site is site to deploy Netlify on push.
