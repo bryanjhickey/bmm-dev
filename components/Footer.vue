@@ -33,7 +33,7 @@
 
             <div class="w-full md:w-1/3 px-8 py-4 text-center md:text-left">
                 <div class="flex h-24 border-purple border-b-4">
-                    <img class="w-40 pb-8 ml-auto mr-auto md:ml-0" src="~/assets/img/logo-colour-white.svg" alt="">
+                    <img class="w-40 pb-8 ml-auto mr-auto md:ml-0" src="~/assets/img/logo-colour-white.svg" alt="Big Man Media Logo">
                 </div>
                 <div class="mt-8">
                     <h3 class="font-bold mb-2">(03) 9366 4082</h3>
@@ -42,27 +42,27 @@
                 </div>
                 <div class="flex items-center md:items-start mt-8">
                     <div class="ml-auto mr-auto md:ml-0">
-                        <a href="https://behance.net/bigmanmedia" target="_blank" ref="nofollow noopeoner">
+                        <a href="https://behance.net/bigmanmedia" target="_blank" ref="noopener noreferrer">
                             <img src="~/assets/img/behance.svg" class="w-8 md:mr-8" alt="Behance Logo">
                         </a>
                     </div>
                     <div class="ml-auto mr-auto md:ml-0">
-                        <a href="https://www.facebook.com/bigmanmedia/" target="_blank" ref="nofollow noopeoner">
+                        <a href="https://www.facebook.com/bigmanmedia/" target="_blank" ref="noopener noreferrer">
                             <img src="~/assets/img/white-facebook.svg" class="w-8 md:mr-8" alt="Facebook Logo">
                         </a>
                     </div>
                     <div class="ml-auto mr-auto md:ml-0">
-                        <a href="https://twitter.com/big_man_media" target="_blank" ref="nofollow noopeoner">
+                        <a href="https://twitter.com/big_man_media" target="_blank" ref="noopener noreferrer">
                             <img src="~/assets/img/twitter.svg" class="w-8 md:mr-8" alt="Twitter Logo">
                         </a>
                     </div>
                     <div class="ml-auto mr-auto md:ml-0">
-                        <a href="https://github.com/bigmanmedia" target="_blank" ref="nofollow noopeoner">
+                        <a href="https://github.com/bigmanmedia" target="_blank" ref="noopener noreferrer">
                             <img src="~/assets/img/github.svg" class="w-8 md:mr-8" alt="Github Logo">
                         </a>
                     </div>
                     <div class="ml-auto mr-auto md:ml-0">
-                        <a href="https://www.instagram.com/big_man_media/" target="_blank" ref="nofollow noopeoner">
+                        <a href="https://www.instagram.com/big_man_media/" target="_blank" ref="noopener noreferrer">
                             <img src="~/assets/img/instagram.svg" class="w-8 md:mr-8" alt="Instagram Logo">
                         </a>
                     </div>
