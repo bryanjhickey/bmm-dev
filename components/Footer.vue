@@ -24,7 +24,7 @@
                     <li class="mb-8" v-for="(article, a) in articles" :key="a">
                         <nuxt-link class="hover:text-green" :to="`/articles/${article.link}`">
                         <h4 class="font-bold">{{ article.title }}</h4>
-                        <h6 class="text-grey text-xs uppercase">Published on {{ article.pubDate }}.</h6>
+                        <h6 class="text-xs uppercase">Published on {{ article.pubDate }}.</h6>
                         </nuxt-link>
                     </li>
                 </ul>
