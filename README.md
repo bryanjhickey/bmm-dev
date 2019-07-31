@@ -1,6 +1,8 @@
-# bmm-dev
+# Big Man Media Site
 
-> My flawless Nuxt.js project
+> Company website built with Nuxt, Tailwind etc.
+> Install Instructions Below
+> Site is site to deploy Netlify on push.
 
 ## Build Setup
 
@@ -18,5 +20,3 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
