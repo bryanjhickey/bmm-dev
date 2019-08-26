@@ -8,9 +8,9 @@
                     <h4 class="self-end w-3/4 pb-8 text-green font-bold">We’re a Melbourne based web design and development agency founded upon honest work and a handshake mentality</h4>
                 </div>
                 <ul class="flex flex-wrap">
-                    <li class="w-1/2 py-2 md:py-4" v-for="(nav, c) in footerNavs" :key="n">
-                        <a class="font-black italic hover:text-green" :href="nav.slug">
-                            <h4>{{ nav.title }}</h4>
+                    <li class="w-1/2 py-2 md:py-4" v-for="(footerNav, index) in footerNavs" :key="index">
+                        <a class="font-black italic hover:text-green" :href="footerNav.slug">
+                            <h4>{{ footerNav.title }}</h4>
                         </a>
                     </li>
                 </ul>
@@ -79,7 +79,7 @@
 
 <script>
 export default {
-    name: 'footer',
+    name: 'primaryFooter',
     data() {
         return {
             footerNavs: [
