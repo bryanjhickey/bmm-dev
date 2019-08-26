@@ -49,11 +49,7 @@ export default {
       plugins: {
         tailwindcss: './tailwind.config.js'
       }
-    },
-    /*
-     ** You can extend webpack config here
-     */
-    extend(config, ctx) {}
+    }
   },
   server: {
     port: 3333, // default: 3000
