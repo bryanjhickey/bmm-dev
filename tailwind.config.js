@@ -6,7 +6,13 @@ module.exports = {
       padding: '1rem'
     },
     colors: {
-      purple: '#6D32FF',
+      purple: {
+        '300': '#a177ff',
+        '400': '#8855ff',
+        '500': '#6D32FF',
+        '600': '#5f2df8',
+        '700': '#4a24ef'
+      },
       green: '#87FC8E',
       white: '#ffffff',
       black: '#1f1f1f',

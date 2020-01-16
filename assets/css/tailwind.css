@@ -179,3 +179,38 @@ body {
 }
 @tailwind components;
 @tailwind utilities;
+
+/* purple: '#6D32FF',
+green: '#87FC8E',
+white: '#ffffff',
+black: '#1f1f1f',
+grey: '#DBDBDB' */
+.copy p {
+  @apply mb-4;
+}
+.anchor__purple {
+  background: linear-gradient(to bottom, #6d32ff 0%, #6d32ff 100%);
+}
+.anchor__purple:hover {
+  color: white;
+}
+.anchor__green {
+  background: linear-gradient(to bottom, #87fc8e 0%, #87fc8e 100%);
+}
+.anchor__green:hover {
+  color: #1f1f1f;
+}
+.anchor {
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  text-decoration: none;
+  transition: background-size 0.2s;
+  padding: 10px 4px;
+}
+.anchor__no-border {
+  background-size: 0px 0px;
+}
+.anchor:hover {
+  background-size: 4px 80px;
+}

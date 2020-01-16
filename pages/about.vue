@@ -3,7 +3,7 @@
     <section class="py-24 md:py-48">
       <div class="container">
         <div class="flex flex-col md:flex-row md:flex-wrap">
-          <div class="w-full md:w-1/2 overflow-hidden">
+          <div class="w-full md:w-1/2 overflow-hidden copy">
             <h2 class="text-xl uppercase font-black mb-8">About</h2>
             <p>Big Man Media provides marketing and digital media to visionaries, helping them feel informed and experience business growth.</p>
             <p>Starting in 2010, as a sole trader operating under the name Happy Widget Design, Big Man Media has built a reputation for honest, trustworthy and frank work that results in business growth.</p>
@@ -15,7 +15,6 @@
         </div>
       </div>
     </section>
-
   </div>
 </template>
 
@@ -23,20 +22,22 @@
 export default {
   name: 'about',
   data() {
-        return {
-            hero: {
-                heading:  "About Us",
-                paragraph:  "We’re a Melbourne based web design and development agency founded upon honest work and a handshake mentality",
-                introButtons: false,
-                actionText: "Learn More",
-                actionUrl: "#",
-                bgImage: require('~/assets/img/bg.jpg'),
-                bgImgAlt: 'Alt text for hero banner',
-                buttonStyle: "bg-green px-8 py-4 mb-2 border-1 border-green inline-block font-mono uppercase",
-                heroBox: true,
-                heroBoxStyle: 'absolute w-1/3'
-            },
-        }
+    return {
+      hero: {
+        heading: 'About Us',
+        paragraph:
+          'We’re a Melbourne based web design and development agency founded upon honest work and a handshake mentality',
+        introButtons: false,
+        actionText: 'Learn More',
+        actionUrl: '#',
+        bgImage: require('~/assets/img/bg.jpg'),
+        bgImgAlt: 'Alt text for hero banner',
+        buttonStyle:
+          'bg-green px-8 py-4 mb-2 border-1 border-green inline-block font-mono uppercase',
+        heroBox: true,
+        heroBoxStyle: 'absolute w-1/3'
+      }
     }
+  }
 }
 </script>
