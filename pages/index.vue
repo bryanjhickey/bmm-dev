@@ -5,7 +5,7 @@
         <div class="flex flex-col md:flex-row md:flex-wrap">
           <div class="w-full md:w-1/2 overflow-hidden">
             <nuxt-link class="text-xl uppercase font-black hover:text-purple-500" to="/services">
-              <h2 class="mb-8">{{ services.title }}</h2>
+              <h2 class="mb-8">Savvy, in a good way</h2>
             </nuxt-link>
             <p>{{ services.description }}</p>
             <img
