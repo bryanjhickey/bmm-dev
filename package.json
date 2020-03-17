@@ -1,7 +1,8 @@
 {
-  "name": "bmm-dev",
+  "name": "bmm",
   "version": "1.0.0",
-  "description": "My flawless Nuxt.js project",
+  "siteName": "Big Man Media",
+  "description": "Big Man Media is a creative agency focusing on marketing through web design, digital marketing and brand identities",
   "author": "Bryan Hickey",
   "private": true,
   "scripts": {

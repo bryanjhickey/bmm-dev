@@ -4,9 +4,10 @@
       <div class="container">
         <div class="flex flex-col md:flex-row md:flex-wrap">
           <div class="w-full md:w-1/2 overflow-hidden">
-            <nuxt-link class="text-xl uppercase font-black hover:text-purple-500" to="/services">
-              <h2 class="mb-8">Savvy, in a good way</h2>
-            </nuxt-link>
+            <h2 class="text-2xl uppercase leading-tight font-black hover:text-purple-500 mb-8">
+              We're savvy,
+              <br />in a good way.
+            </h2>
             <p>{{ services.description }}</p>
             <img
               class="w-11/12 mr-auto ml-auto my-8 md:hidden"
