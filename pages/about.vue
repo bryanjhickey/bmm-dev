@@ -5,12 +5,12 @@
         <div class="flex flex-col md:flex-row md:flex-wrap">
           <div class="w-full md:w-1/2 overflow-hidden copy">
             <h2 class="text-xl uppercase font-black mb-8">About</h2>
-            <p>Big Man Media provides marketing and digital media to visionaries, helping them feel informed and experience business growth.</p>
-            <p>Starting in 2010, as a sole trader operating under the name Happy Widget Design, Big Man Media has built a reputation for honest, trustworthy and frank work that results in business growth.</p>
+            <p>Big Man Media provides marketing and digital media to visionaries, helping them stay informed and experience business growth.</p>
+            <p>Big Man Media has built a reputation for honest, trustworthy and frank work that results in business growth.</p>
             <p>Bryan Hickey, the Director of Big Man Media, knows the needs of business owners. A keen contributor to organisational growth, profitability and ethical practice, Bryan loves to see business owners gather momentum as they pursue the mission of their organisation.</p>
-            <p>Working with partners in Australia and around the world, Big Man Media delivers solutions across a range of marketing and digital design solutions. High-value returns on media campaigns for headline events, steady sales and business development plans for entrepreneurs and mission-critical web-apps are just some of the project areas we work in every day.</p>
+            <p>Working with a team of developers in Australia and abroad, Big Man Media delivers projects across a range of marketing and digital design products. High-value returns for headline events, sales growth and business development for entrepreneurs and mission-critical web-apps are just some of the project areas we work in every day.</p>
             <p>But we’re just getting started…</p>
-            <p>If you’re after an honest no-bullshit partner to work with you on your vision and deliver real growth through marketing and digital design give us a call.</p>
+            <p>If you’re after an honest no-bullshit partner to work with on your next project call us.</p>
           </div>
         </div>
       </div>

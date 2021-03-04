@@ -5,13 +5,14 @@
         <div class="flex flex-col md:flex-row md:flex-wrap">
           <div class="w-full md:w-1/2 overflow-hidden">
             <h2 class="text-xl uppercase font-black mb-8">{{ services.title }}</h2>
-            <p>{{ services.description }}</p>
+            <p v-if="services.description">{{ services.description }}</p>
             <img
+            v-if="services.image.src"
               class="w-11/12 mr-auto ml-auto my-8 md:hidden"
               :src="services.image.src"
               :alt="services.image.alt"
             />
-            <h3 class="font-mono tracking-widest font-bold uppercase mt-16 mb-8">Core Services</h3>
+            <!-- <h3 class="font-mono tracking-widest text-xl font-bold uppercase mt-16 mb-8">Core Services</h3> -->
             <ul class="flex flex-wrap">
               <li
                 class="w-full md:w-1/2 py-2 md:py-4"
@@ -20,8 +21,8 @@
               >
                 <a :href="`#${coreService.idSlug}`">
                   <h4
-                    class="text-lg font-black italic w-11/12 anchor anchor__purple-500"
-                  >{{ coreService.title }}</h4>
+                    class="text-base font-black italic w-11/12 anchor anchor__purple-500"
+                  >&rarr; {{ coreService.title }}</h4>
                 </a>
               </li>
             </ul>
@@ -114,10 +115,10 @@ export default {
       services: {
         title: 'Our Services',
         description:
-          'We are business strategists, keen analysts, growth-focused designers and thoughtful developers. We’ve made it our mission to partner with businesses to achieve big goals and set new boundaries. We are about more than just tools and technology, we’re about building the size and reach of your business so that you can negotiate the future with confidence.',
+          '',
         image: {
-          src: require('~/assets/img/services-mobile-screens.png'),
-          alt: 'Mobile Prototype Mock Designs'
+          src: '',
+          alt: ''
         },
         coreServices: [
           {

@@ -4,16 +4,16 @@
       <div class="w-full md:w-1/3 px-8 py-4">
         <div class="flex h-24 border-white border-b-4 mb-8">
           <h4
-            class="self-end w-3/4 pb-8 text-green font-bold"
-          >We’re a Melbourne based web design and development agency founded upon honest work and a handshake mentality</h4>
+            class="text-sm self-end w-3/4 pb-8 text-green font-bold"
+          >We’re a web design and development agency founded upon honest work and a handshake mentality</h4>
         </div>
-        <ul class="flex flex-wrap">
+        <!-- <ul class="flex flex-wrap">
           <li class="w-1/2 py-2 md:py-4" v-for="(footerNav, index) in footerNavs" :key="index">
             <a class="font-black italic hover:text-green" :href="footerNav.slug">
               <h4 class="anchor anchor__green anchor__no-border w-11/12">{{ footerNav.title }}</h4>
             </a>
           </li>
-        </ul>
+        </ul> -->
       </div>
 
       <div class="w-full md:w-1/3 px-8 py-4">
@@ -39,9 +39,8 @@
           />
         </div>
         <div class="mt-8">
-          <h3 class="font-bold mb-2">(03) 9366 4082</h3>
+          <h3 class="font-bold mb-2">0425 854 720</h3>
           <h3 class="font-bold mb-2">grow@bigmanmedia.com.au</h3>
-          <h3 class="font-bold mb-2">PO Box 55. Keilor, Victoria, 3023.</h3>
         </div>
         <div class="flex items-center md:items-start mt-12">
           <div class="ml-auto mr-auto md:ml-0">
@@ -80,8 +79,7 @@
         </div>
         <div class="mt-12">
           <p class="font-bold">
-            Made with
-            <span class="mx-1 leading-none">❤️</span>in Melbourne, Australia
+            Made with<span class="px-1 text-base leading-none">❤️</span>in Melbourne, Australia
           </p>
           <p class="text-sm mt-6">Copyright © 2019. All Rights Reserved.</p>
           <p class="text-sm">The Big Man Group Pty Ltd.</p>

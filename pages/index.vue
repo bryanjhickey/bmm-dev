@@ -4,9 +4,9 @@
       <div class="container">
         <div class="flex flex-col md:flex-row md:flex-wrap">
           <div class="w-full md:w-1/2 overflow-hidden">
-            <h2 class="text-2xl uppercase leading-tight font-black hover:text-purple-500 mb-8">
+            <h2 class="text-xl md:text-2xl uppercase leading-none font-black mb-8">
               We're savvy,
-              <br />in a good way.
+              <br /><span class="text-lg md:text-xl text-purple-500">in a good way.</span>
             </h2>
             <p>{{ services.description }}</p>
             <img
@@ -23,7 +23,7 @@
               >
                 <nuxt-link :to="`services/#${coreService.idSlug}`">
                   <h4
-                    class="text-lg font-black italic w-11/12 anchor anchor__purple"
+                    class="text-base md:text-lg font-black italic w-11/12 anchor anchor__purple"
                   >{{ coreService.title }}</h4>
                 </nuxt-link>
               </li>
@@ -49,17 +49,16 @@
             </nuxt-link>
             <p
               class="text-white"
-            >Starting in 2010, as a sole trader under the name Happy Widget Design, Big Man Media has built a reputation for honest, trustworthy and frank work that results in business growth.</p>
+            >Big Man Media has built a reputation for honest, trustworthy and frank work that results in business growth.</p>
             <p
               class="text-white"
-            >What sets us apart is our can-do attitude and our committment to quality work. We're flexible and provide a wide range of web development services and creative executions that appeal to users and deliver on critical business goals.</p>
+            >What sets us apart is our can-do attitude and our committment to quality work. We're flexible and diverse, providing a wide range of services that appeal your audience and deliver on critical business goals.</p>
           </div>
           <div class="w-full md:w-1/2 py-12 md:py-0 md:pl-24">
-            <nuxt-link class="text-xl uppercase font-black hover:text-purple-500" to="/work">
-              <h2 class="text-xl uppercase font-black mb-8 text-white hover:text-green">Our Work</h2>
-            </nuxt-link>
+              <h2 class="text-xl uppercase mb-0 pb-0 leading-none font-black text-white">Our Work</h2>
+              <span class="text-base uppercase text-grey pt-0 mt-0 leading-none mb-8">(coming soon)</span>
             <p
-              class="text-white"
+              class="text-white mt-6"
             >We are big fans of small business and the men and women who lead them. They are brave, smart and resilient people who back themselves while investing in those around them.</p>
             <p
               class="text-white"
@@ -107,7 +106,7 @@ export default {
       services: {
         title: 'Our Services',
         description:
-          'We are business strategists, keen analysts, growth-focused designers and thoughtful developers. We’ve made it our mission to partner with businesses to achieve big goals and set new boundaries. We are about more than just tools and technology, we’re about building the size and reach of your business so that you can negotiate the future with confidence.',
+          'We’re business strategists, keen analysts, growth-focused designers and thoughtful developers. We’ve made it our mission to partner with businesses to achieve big goals and set new boundaries. We’re about more than just tools and technology, we’re about building the size and reach of your business so that you can negotiate the future with confidence.',
         image: {
           src: require('~/assets/img/services-mobile-screens.png'),
           alt: 'Mobile Prototype Mock Designs'
